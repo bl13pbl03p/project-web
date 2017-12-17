@@ -8,5 +8,7 @@
   src: url("./fonts/DFDSLight/DFDSLight.eot") format("embedded-opentype"), url("./fonts/DFDSLight/DFDSLight.woff") format("woff"), url("./fonts/DFDSLight/DFDSLight.ttf") format("truetype"), url("./fonts/DFDSLight/DFDSLight.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+h1 {
+  font-family: 'DFDSBold'; }
 
 /*# sourceMappingURL=style.css.map */
