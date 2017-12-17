@@ -1,6 +1,12 @@
-body {
-  font-family: "Open sans", sans-serif;
-  margin: 0 auto;
-  text-align: center; }
+@font-face {
+  font-family: 'DFDSBold';
+  src: url("DFDSBold.eot?#iefix") format("embedded-opentype"), url("DFDSBold.woff") format("woff"), url("DFDSBold.ttf") format("truetype"), url("DFDSBold.svg#DFDSBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DFDSLight';
+  src: url("DFDSLight.eot?#iefix") format("embedded-opentype"), url("DFDSLight.woff") format("woff"), url("DFDSLight.ttf") format("truetype"), url("DFDSLight.svg#DFDSLight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 /*# sourceMappingURL=style.css.map */
