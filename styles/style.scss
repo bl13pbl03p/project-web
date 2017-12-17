@@ -1,4 +1,5 @@
-//GENERATED WEB FONTS
+// Generated Web fonts
+// Source: https://dfdsstyleguide.azurewebsites.net/brand/typography
 @font-face {
   font-family: 'DFDSBold';
   src: url('DFDSBold.eot?#iefix') format('embedded-opentype'),  url('DFDSBold.woff') format('woff'), url('DFDSBold.ttf')  format('truetype'), url('DFDSBold.svg#DFDSBold') format('svg');
@@ -13,7 +14,8 @@
   font-style: normal;
 }
 
-//COLOR PALETTE DFDS
+// Color Palette DFDS
+// SOURCE: https://dfdsstyleguide.azurewebsites.net/brand/colours
 $dfds-color-primary: #002B45;
 $dfds-color-secondary: #1B5786;
 $dfds-color-tertiary1: #F6861F;
