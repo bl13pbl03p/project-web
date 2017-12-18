@@ -36,7 +36,7 @@ body {
     body #stories h1 {
       font-family: 'DFDSBold', sans-serif; }
   body #form {
-    max-width: 90vw;
+    max-width: 100vw;
     margin: 0 auto; }
     body #form form {
       max-width: 35em;
@@ -45,18 +45,26 @@ body {
       width: 80vw;
       font-family: 'Helvetica', sans-serif; }
       body #form form legend {
+        color: #434950;
         font-family: 'DFDSBold', sans-serif;
-        font-size: 2em; }
+        font-size: 2em;
+        margin: 3em 0 -1em 0; }
       body #form form fieldset {
         display: grid;
-        color: white;
-        background-color: #6D6F71;
+        background-color: #EEF0F1;
         border: none;
         padding: 4em; }
+        body #form form fieldset label {
+          margin-bottom: 0.2em; }
         body #form form fieldset input {
+          font-size: 12pt;
           margin: 0 0 1em 0;
           border: none;
           padding: 1em 1em; }
+        body #form form fieldset a {
+          color: #85BCE9;
+          text-decoration: none;
+          margin: 0 0 1em 0; }
         body #form form fieldset button {
           font-family: 'DFDSBold', sans-serif;
           font-size: 1.3em;
