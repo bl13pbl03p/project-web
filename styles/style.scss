@@ -29,8 +29,8 @@ $dfds-color-gray-4: #EEF0F1;
 body {
     display: grid;
     margin: 0 auto;
+    font-family: 'Helvetica', sans-serif;
     header {
-        background-color: $dfds-color-gray-4;
         margin: 0;
         max-width: 100vw;
         width: 100vw;
@@ -96,6 +96,10 @@ body {
                     color: $dfds-color-tertiary2;
                     text-decoration: none;
                     margin: 0 0 2em 0;
+                    transition-duration: 400ms;
+                    &:hover {
+                        color: $dfds-color-secondary;
+                    }
                 }
                 button {
                     font-family: 'DFDSBold', sans-serif;
