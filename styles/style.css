@@ -44,24 +44,25 @@ body {
       display: grid;
       width: 80vw;
       font-family: 'Helvetica', sans-serif; }
-      body #form form legend {
-        color: #434950;
-        font-family: 'DFDSBold', sans-serif;
-        font-size: 2em;
-        padding-top: 2em;
-        margin-top: 1em; }
       body #form form fieldset {
         display: grid;
         background-color: #EEF0F1;
         border: none;
-        padding: 4em; }
+        padding: 2em 3em; }
+        body #form form fieldset legend {
+          color: #434950;
+          font-family: 'DFDSBold', sans-serif;
+          font-size: 2em;
+          padding-top: 2em;
+          margin-top: 0.3em; }
         body #form form fieldset label {
           margin-bottom: 0.2em; }
         body #form form fieldset input {
           font-size: 12pt;
-          margin: 0 0 1em 0;
+          margin-bottom: 1em;
           border: none;
-          padding: 1em 1em; }
+          width: 100%;
+          height: 3em; }
           body #form form fieldset input:nth-of-type(3) {
             margin-bottom: 0.5em; }
         body #form form fieldset a {
