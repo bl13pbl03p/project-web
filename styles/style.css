@@ -74,7 +74,7 @@ body {
             color: #1B5786; }
           body #form form fieldset a:nth-of-type(2) {
             color: #1B5786;
-            margin-top: 2em;
+            margin: 2em 0 0 0;
             font-weight: bold;
             transition-duration: 400ms; }
             body #form form fieldset a:nth-of-type(2):hover {
