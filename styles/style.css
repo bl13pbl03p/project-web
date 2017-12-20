@@ -29,7 +29,7 @@ body {
       align-items: center; }
       body header nav ul {
         max-width: 80vw;
-        display: inline;
+        display: contents;
         list-style-type: none; }
   body #stories {
     display: flex;
