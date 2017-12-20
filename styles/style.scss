@@ -110,6 +110,15 @@ body {
                         }
                     }
                 }
+                .exist {
+                    color: $dfds-color-secondary;
+                    margin: 2em 0 0 0;
+                    font-weight: bold;
+                    transition-duration: 400ms;
+                    &:hover {
+                        color: $dfds-color-black;
+                    }
+                }
                 .g-recaptcha {
                     margin: 1em 0 1em 0;
                     transform:scale(0.87);
