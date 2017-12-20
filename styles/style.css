@@ -72,6 +72,8 @@ body {
           transition-duration: 400ms; }
           body #form form fieldset a:hover {
             color: #1B5786; }
+        body #form form fieldset .g-recaptcha {
+          margin: 1em 0 1em 0; }
         body #form form fieldset button {
           font-family: 'DFDSBold', sans-serif;
           font-size: 1.3em;
@@ -79,7 +81,7 @@ body {
           padding: 0.5em 1em;
           color: white;
           background-color: #F6861F;
-          max-width: 5em;
+          max-width: 6em;
           transition-duration: 400ms;
           cursor: pointer; }
           body #form form fieldset button:hover {
