@@ -80,7 +80,11 @@ body {
             body #form form fieldset a:nth-of-type(2):hover {
               color: #000000; }
         body #form form fieldset .g-recaptcha {
-          margin: 1em 0 1em 0; }
+          margin: 1em 0 1em 0;
+          transform: scale(0.87);
+          -webkit-transform: scale(0.87);
+          transform-origin: 0 0;
+          -webkit-transform-origin: 0 0; }
         body #form form fieldset button {
           font-family: 'DFDSBold', sans-serif;
           font-size: 1.3em;
