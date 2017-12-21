@@ -53,11 +53,18 @@ body {
         }
     }
     #stories {
-        display: flex;
+        display: grid;
         max-width: 90vw;
         margin: 0 auto;
-       h1 {
-            font-family: 'DFDSBold', sans-serif;
+        section {
+            background-color: $dfds-color-gray-4;
+            padding: 2em 3em;
+            margin: 1em;
+            max-width: 45em;
+            line-height: 1.4;
+            h1 {
+                 font-family: 'DFDSBold', sans-serif;
+             }
         }
     }
     #form {
