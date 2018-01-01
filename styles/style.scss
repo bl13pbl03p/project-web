@@ -65,14 +65,20 @@ body {
             h1 {
                  font-family: 'DFDSBold', sans-serif;
              }
-             button {
-                 text-align: center;
-                 border: none ;
-                 width: 3.5em;
-                 height: 2em;
-                 background-color: white;
+             a {
+                 font-family: 'DFDSBold', sans-serif;
+                 font-size: 1.3em;
+                 border: none;
+                 padding: 0.5em 1em;
+                 color: white;
+                 background-color: $dfds-color-tertiary1;
+                 max-width: 6em;
+                 transition-duration: 400ms;
+                 text-decoration: none;
                  cursor: pointer;
-                 box-shadow: 10rem $dfds-color-gray4;
+                 &:hover {
+                     background-color: #a05814;
+                 }
              }
         }
     }
