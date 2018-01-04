@@ -61,23 +61,29 @@ body {
                 a {
                     color: white;
                     text-decoration: none;
+                    transition-duration: 400ms;
+                    &:hover {
+                        color: $dfds-color-tertiary2;
+                    }
                 }
             }
         }
     }
     main{
         #highlighted {
+            max-width: 65vw;
+            margin: 0 auto;
             article {
                 background-color: $dfds-color-gray-4;
                 padding: 2em;
                 margin: 0 auto;
-                max-width: 65vw;
+                max-width: 61vw;
                 line-height: 1.4;
             }
 
         }
         #stories {
-            max-width: 65vw;
+            max-width: 68vw;
             padding: 0;
             margin: 0 auto;
             display: -webkit-box;
@@ -91,7 +97,7 @@ body {
                 background-color: $dfds-color-gray-4;
                 padding: 2em;
                 margin: 1em;
-                max-width: 25.5vw;
+                max-width: 26.5vw;
                 line-height: 1.4;
                 h1 {
                      font-family: 'DFDSBold', sans-serif;
