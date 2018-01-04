@@ -65,51 +65,63 @@ body {
             }
         }
     }
-    #stories {
-        max-width: 65vw;
-        padding: 0;
-        margin: 0 auto;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        justify-content: space-around;
-        article {
-            background-color: $dfds-color-gray-4;
-            padding: 2em;
-            margin: 1em;
-            max-width: 25.5vw;
-            line-height: 1.4;
-            h1 {
-                 font-family: 'DFDSBold', sans-serif;
-             }
-             footer {
-                 justify-content: space-between;
-                 align-items: baseline;
-                 display: inline;
-                 box-sizing: border-box;
-                 a:first-of-type {
+    main{
+        #highlighted {
+            article {
+                background-color: $dfds-color-gray-4;
+                padding: 2em;
+                margin: 0 auto;
+                max-width: 65vw;
+                line-height: 1.4;
+            }
+
+        }
+        #stories {
+            max-width: 65vw;
+            padding: 0;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            justify-content: space-around;
+            article {
+                background-color: $dfds-color-gray-4;
+                padding: 2em;
+                margin: 1em;
+                max-width: 25.5vw;
+                line-height: 1.4;
+                h1 {
                      font-family: 'DFDSBold', sans-serif;
-                     font-size: 1.3em;
-                     border: none;
-                     margin: 0;
-                     padding: 0.5em 1em;
-                     color: white;
-                     background-color: $dfds-color-tertiary1;
-                     max-width: 6em;
-                     transition-duration: 400ms;
-                     text-decoration: none;
-                     cursor: pointer;
-                     &:hover {
-                         background-color: #a05814;
+                 }
+                 footer {
+                     justify-content: space-between;
+                     align-items: baseline;
+                     display: inline;
+                     box-sizing: border-box;
+                     a:first-of-type {
+                         font-family: 'DFDSBold', sans-serif;
+                         font-size: 1.3em;
+                         border: none;
+                         margin: 0;
+                         padding: 0.5em 1em;
+                         color: white;
+                         background-color: $dfds-color-tertiary1;
+                         max-width: 6em;
+                         transition-duration: 400ms;
+                         text-decoration: none;
+                         cursor: pointer;
+                         &:hover {
+                             background-color: #a05814;
+                         }
+                     }
+                     a {
+                         text-align: right;
                      }
                  }
-                 a {
-                     text-align: right;
-                 }
-             }
+            }
         }
     }
     #form {
