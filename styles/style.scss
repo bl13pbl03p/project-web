@@ -27,17 +27,17 @@ $dfds-color-gray4: #434950;
 $dfds-color-gray-4: #EEF0F1;
 
 body {
-    display: grid;
+    flex-flow: row wrap;
     margin: 0 auto;
     font-family: 'Helvetica', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
     header {
-        margin: 0;
-        max-width: 100vw;
-        width: 100vw;
+        margin: 0 auto;
+        width: 100%;
+        background-color: $dfds-color-primary;
         nav {
-            max-width: 90vw;
+            max-width: 65vw;
             height: 100%;
             margin: 0 auto;
             display: flex;
@@ -46,27 +46,36 @@ body {
             align-content: center;
             align-items: center;
             ul {
-                max-width: 80vw;
                 display: contents;
                 list-style-type: none;
+            }
+            li {
+                color: white;
+                text-decoration: none;
             }
         }
     }
     #stories {
-        display: grid;
-        max-width: 90vw;
+        max-width: 65vw;
+        padding: 0;
         margin: 0 auto;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
         article {
             background-color: $dfds-color-gray-4;
-            padding: 2em 3em;
+            padding: 2em;
             margin: 1em;
-            max-width: 45em;
+            max-width: 25.5vw;
             line-height: 1.4;
             h1 {
                  font-family: 'DFDSBold', sans-serif;
              }
              footer {
-                 // display: flex;
                  justify-content: space-between;
                  align-items: baseline;
                  display: inline;
