@@ -48,10 +48,20 @@ body {
             ul {
                 display: contents;
                 list-style-type: none;
-            }
-            li {
-                color: white;
-                text-decoration: none;
+                h1 {
+                    color: white;
+                    text-decoration: none;
+                    border: white 2pt solid;
+                    padding: 0.3em;
+                    transition-duration: 400ms;
+                    &:hover {
+                        border: $dfds-color-tertiary2 2pt solid;
+                    }
+                }
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }

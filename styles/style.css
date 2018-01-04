@@ -30,9 +30,17 @@ body {
       body header nav ul {
         display: contents;
         list-style-type: none; }
-      body header nav li {
-        color: white;
-        text-decoration: none; }
+        body header nav ul h1 {
+          color: white;
+          text-decoration: none;
+          border: white 2pt solid;
+          padding: 0.3em;
+          transition-duration: 400ms; }
+          body header nav ul h1:hover {
+            border: #85BCE9 2pt solid; }
+        body header nav ul a {
+          color: white;
+          text-decoration: none; }
   body #stories {
     max-width: 65vw;
     padding: 0;
