@@ -65,19 +65,30 @@ body {
             h1 {
                  font-family: 'DFDSBold', sans-serif;
              }
-             a {
-                 font-family: 'DFDSBold', sans-serif;
-                 font-size: 1.3em;
-                 border: none;
-                 padding: 0.5em 1em;
-                 color: white;
-                 background-color: $dfds-color-tertiary1;
-                 max-width: 6em;
-                 transition-duration: 400ms;
-                 text-decoration: none;
-                 cursor: pointer;
-                 &:hover {
-                     background-color: #a05814;
+             footer {
+                 // display: flex;
+                 justify-content: space-between;
+                 align-items: baseline;
+                 display: inline;
+                 box-sizing: border-box;
+                 a:first-of-type {
+                     font-family: 'DFDSBold', sans-serif;
+                     font-size: 1.3em;
+                     border: none;
+                     margin: 0;
+                     padding: 0.5em 1em;
+                     color: white;
+                     background-color: $dfds-color-tertiary1;
+                     max-width: 6em;
+                     transition-duration: 400ms;
+                     text-decoration: none;
+                     cursor: pointer;
+                     &:hover {
+                         background-color: #a05814;
+                     }
+                 }
+                 a {
+                     text-align: right;
                  }
              }
         }
