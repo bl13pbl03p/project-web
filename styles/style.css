@@ -116,6 +116,10 @@ body {
           margin-top: 0.3em; }
         body #form form fieldset label {
           margin-bottom: 0.2em; }
+        body #form form fieldset #tip {
+          font-style: italic;
+          font-weight: lighter;
+          font-size: 10pt; }
         body #form form fieldset input {
           font-size: 12pt;
           margin-bottom: 1em;
