@@ -80,7 +80,6 @@ body {
                 max-width: 61vw;
                 line-height: 1.4;
             }
-
         }
         #stories {
             max-width: 68vw;
@@ -221,5 +220,9 @@ body {
                 }
             }
         }
+    }
+    nav, #highlighted, #stories 
+    @media only screen and (max-width: 755px) {
+        max-width: 90vw;
     }
 }
