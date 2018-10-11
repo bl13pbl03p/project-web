@@ -31,7 +31,7 @@ header {
       list-style-type: none; }
     header nav a {
       text-decoration: none;
-      color: #000000; }
+      color: #6D6F71; }
     header nav h1 {
       font-family: DFDSBold;
       color: #002B45;
@@ -55,7 +55,12 @@ main {
       background-color: black;
       max-height: 15em; }
     main article footer {
-      margin: 1em 0 0 0; }
+      margin: 2em 0 1em 0; }
+      main article footer a:first-child {
+        font-family: DFDSBold;
+        text-decoration: none;
+        color: #1B5786;
+        font-weight: bold; }
       main article footer a {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   main h2, main h3 {
