@@ -35,22 +35,30 @@ header {
     header nav h1 {
       font-family: DFDSBold;
       color: #002B45;
-      font-size: 25pt; }
+      font-size: 20pt; }
 
 main {
   max-width: 80vw;
   margin: 0 auto;
   background-color: #EEF0F1;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
   grid-gap: calc(1em + 1ex); }
   main h2 {
     margin: 0.7em; }
   main article {
     background-color: white;
     padding: 1em; }
-    main article footer a {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    main article img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      background-color: black;
+      max-height: 15em; }
+    main article footer {
+      margin: 1em 0 0 0; }
+      main article footer a {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   main h2, main h3 {
     font-family: DFDSBold; }
   main p {

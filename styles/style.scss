@@ -66,7 +66,7 @@ header {
     h1 {
       font-family: DFDSBold;
       color: $dfds-color-primary;
-      font-size: 25pt;
+      font-size: 20pt;
     }
   }
 }
@@ -76,7 +76,7 @@ main {
   margin: 0 auto;
   background-color: $dfds-color-gray-4;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
   grid-gap: calc(1em + 1ex);
 
   h2 {
@@ -87,8 +87,19 @@ main {
     background-color: white;
     padding: 1em;
 
-    footer a {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      background-color: black;
+      max-height: 15em;
+    }
+
+    footer {
+      margin: 1em 0 0 0;
+      a { 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
     }
   }
   
