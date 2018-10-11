@@ -9,33 +9,48 @@
   font-weight: normal;
   font-style: normal; }
 html {
-  max-width: 80vw;
+  background-color: #EEF0F1;
   margin: 0 auto; }
 
-nav {
+body {
+  margin: 0 auto; }
+
+header {
   background-color: white; }
-  nav ul {
-    padding: 0; }
-  nav li {
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style-type: none; }
-  nav li:nth-of-type(2) {
-    float: right; }
-  nav a {
-    text-decoration: none;
-    color: #000000; }
-  nav h1 {
-    font-family: DFDSBold;
-    color: #002B45;
-    font-size: 25pt; }
+  header nav {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80vw; }
+    header nav ul {
+      margin: 0 0 1em 0;
+      padding: 0;
+      width: 80vw; }
+    header nav li {
+      display: inline-block;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      list-style-type: none; }
+    header nav a {
+      text-decoration: none;
+      color: #000000; }
+    header nav h1 {
+      font-family: DFDSBold;
+      color: #002B45;
+      font-size: 25pt; }
 
 main {
-  background-color: #EEF0F1; }
+  max-width: 80vw;
+  margin: 0 auto;
+  background-color: #EEF0F1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
+  grid-gap: calc(1em + 1ex); }
+  main h2 {
+    margin: 0.7em; }
   main article {
     background-color: white;
-    margin: 1em;
     padding: 1em; }
+    main article footer a {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   main h2, main h3 {
     font-family: DFDSBold; }
   main p {
