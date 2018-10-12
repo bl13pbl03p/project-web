@@ -46,19 +46,43 @@ main {
   grid-gap: calc(1em + 1ex); }
   main h2 {
     margin: 0.7em; }
+  main h3 {
+    background-color: #F6861F;
+    color: white;
+    padding: .4em 2em .4em 1em;
+    line-height: 1.5rem;
+    top: 0.3rem;
+    position: absolute; }
   main article {
-    background-color: white;
-    padding: 1em; }
+    position: relative;
+    background-color: white; }
     main article img {
       width: 100%;
       object-fit: cover;
-      background-color: black;
       max-height: 15em; }
     main article footer {
-      text-align: right;
-      margin: 1em 0 1em 0; }
-      main article footer a {
+      display: flex;
+      margin: 1em;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    main article footer span {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline; }
+    main article footer span:last-of-type {
+      margin-left: auto; }
+    main article p {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 2em 1em 2em 1em; }
+    main article .read {
+      margin: 1em 0 1em 1em; }
+      main article .read a {
+        font-size: 18px;
         font-family: DFDSBold;
+        line-height: 21px;
         text-decoration: none;
         color: #1B5786; }
   main h2, main h3 {
