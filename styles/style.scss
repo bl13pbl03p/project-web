@@ -61,7 +61,9 @@ header {
     }
 
     li a:nth-of-type(2) {
-
+      position : absolute;
+      top : 0 px ; // or below the header or banner image
+      left :10px;
     }
 
     h1 {
@@ -86,6 +88,7 @@ header {
     display: inline-block;
     padding: .7em 1em .7em 1em;
     transition-duration: 400ms;
+    margin: 0 .6em 0 0;
 
     &:hover {
       background-color: $dfds-color-primary;
@@ -159,6 +162,11 @@ main {
         line-height: 21px;
         text-decoration: none;
         color: $dfds-color-secondary;
+        transition-duration: 400ms;
+
+        &:hover {
+          color: $dfds-color-primary;
+        }
       } 
     }
 
