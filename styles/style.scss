@@ -173,3 +173,33 @@ main {
   }
 }
 
+#footer {
+  background-color: $dfds-color-primary;
+  padding: 2em;
+  margin: 7em 0 0 0;
+
+  ul {
+    margin: 0 auto;
+    text-align: right;
+    padding: 0;
+    max-width: 80vw;
+  }
+
+  li {
+    margin: 0 0 0 1em;
+    display: inline-block;
+
+    a {
+      font-size: 15px;
+      line-height: 22px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      color: $dfds-color-tertiary2;
+      transition-duration: 400ms;
+
+      &:hover {
+        color: $dfds-color-gray-4;
+      }
+    }
+  }
+}

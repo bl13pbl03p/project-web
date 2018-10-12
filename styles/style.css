@@ -105,4 +105,26 @@ main {
   main p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
+#footer {
+  background-color: #002B45;
+  padding: 2em;
+  margin: 7em 0 0 0; }
+  #footer ul {
+    margin: 0 auto;
+    text-align: right;
+    padding: 0;
+    max-width: 80vw; }
+  #footer li {
+    margin: 0 0 0 1em;
+    display: inline-block; }
+    #footer li a {
+      font-size: 15px;
+      line-height: 22px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      color: #85BCE9;
+      transition-duration: 400ms; }
+      #footer li a:hover {
+        color: #EEF0F1; }
+
 /*# sourceMappingURL=style.css.map */
