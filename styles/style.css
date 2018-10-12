@@ -37,6 +37,21 @@ header {
       color: #002B45;
       font-size: 20pt; }
 
+#filter {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 80vw;
+  margin: 0 auto; }
+  #filter ul {
+    padding: 0; }
+  #filter li {
+    background-color: white;
+    display: inline-block;
+    padding: .7em 1em .7em 1em;
+    transition-duration: 400ms; }
+    #filter li:hover {
+      background-color: #002B45;
+      color: white; }
+
 main {
   max-width: 80vw;
   margin: 0 auto;

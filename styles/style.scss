@@ -72,6 +72,28 @@ header {
   }
 }
 
+#filter {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 80vw;
+  margin: 0 auto;
+  
+  ul {
+    padding: 0;
+  }
+
+  li {
+    background-color: white;
+    display: inline-block;
+    padding: .7em 1em .7em 1em;
+    transition-duration: 400ms;
+
+    &:hover {
+      background-color: $dfds-color-primary;
+      color: white;
+    }
+  }
+}
+
 main {
   max-width: 80vw;
   margin: 0 auto;
