@@ -104,8 +104,12 @@ header {
   display: none;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
+  max-width: 80vw;
+
   button {
-    width: 80vw;
+    width: 100%;
+    max-width: 95vw;
     padding: .6em;
     color: white;
     background-color: $dfds-color-tertiary1;
@@ -202,13 +206,12 @@ main {
 
 
 @media only screen and (max-width: 400px) {
-  #filter-mobile {
-    width: 95vw;
-    display: block;
-  }
-
   header nav {
     width: 95vw;
+  }
+
+  #filter-mobile  {
+    max-width: 95vw;
   }
 
   main {
@@ -227,10 +230,6 @@ main {
 
   #filter-mobile {
     display: block;
-  }
-
-  header nav {
-    width: 80vw;
   }
 
   main {

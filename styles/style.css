@@ -60,9 +60,12 @@ header {
 #filter-mobile {
   display: none;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80vw; }
   #filter-mobile button {
-    width: 80vw;
+    width: 100%;
+    max-width: 95vw;
     padding: .6em;
     color: white;
     background-color: #F6861F;
@@ -127,12 +130,11 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 @media only screen and (max-width: 400px) {
-  #filter-mobile {
-    width: 95vw;
-    display: block; }
-
   header nav {
     width: 95vw; }
+
+  #filter-mobile {
+    max-width: 95vw; }
 
   main {
     max-width: none; }
@@ -145,9 +147,6 @@ main {
 
   #filter-mobile {
     display: block; }
-
-  header nav {
-    width: 80vw; }
 
   main {
     margin-top: 1em; } }
