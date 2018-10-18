@@ -57,6 +57,19 @@ header {
       background-color: #002B45;
       color: white; }
 
+#filter-mobile {
+  display: none;
+  text-align: center;
+  margin: 0 auto; }
+  #filter-mobile button {
+    width: 80vw;
+    padding: .6em;
+    color: white;
+    background-color: #F6861F;
+    font-family: DFDSBold;
+    font-size: 18px;
+    border: none 0px; }
+
 main {
   max-width: 80vw;
   margin: 0 auto;
@@ -114,14 +127,27 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 @media only screen and (max-width: 400px) {
-  #filter {
-    max-width: 90vw; }
+  #filter-mobile {
+    width: 90vw;
+    display: block; }
 
   header nav {
     width: 90vw; }
 
   main {
     max-width: none; } }
+@media only screen and (max-width: 1066px) {
+  #filter {
+    display: none; }
+
+  #filter-mobile {
+    display: block; }
+
+  header nav {
+    width: 80vw; }
+
+  main {
+    margin-top: 1em; } }
 #footer {
   background-color: #002B45;
   padding: 2em;

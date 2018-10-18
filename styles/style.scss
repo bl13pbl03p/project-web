@@ -100,6 +100,21 @@ header {
   }
 }
 
+#filter-mobile {
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+  button {
+    width: 80vw;
+    padding: .6em;
+    color: white;
+    background-color: $dfds-color-tertiary1;
+    font-family: DFDSBold;
+    font-size: 18px;
+    border: none 0px;
+  }
+}
+
 main {
   max-width: 80vw;
   margin: 0 auto;
@@ -184,9 +199,12 @@ main {
   }
 }
 
+
+
 @media only screen and (max-width: 400px) {
-  #filter {
-    max-width: 90vw;
+  #filter-mobile {
+    width: 90vw;
+    display: block;
   }
 
   header nav {
@@ -195,6 +213,24 @@ main {
 
   main {
     max-width: none; 
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  #filter {
+    display: none;
+  }
+
+  #filter-mobile {
+    display: block;
+  }
+
+  header nav {
+    width: 80vw;
+  }
+
+  main {
+    margin-top: 1em;
   }
 }
 
