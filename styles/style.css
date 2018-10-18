@@ -113,6 +113,15 @@ main {
   main p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
+@media only screen and (max-width: 400px) {
+  #filter {
+    max-width: 90vw; }
+
+  header nav {
+    width: 90vw; }
+
+  main {
+    max-width: none; } }
 #footer {
   background-color: #002B45;
   padding: 2em;

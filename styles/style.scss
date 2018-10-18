@@ -14,6 +14,9 @@
   font-style: normal;
 }
 
+// Breakpoints
+
+
 // Color Palette DFDS
 // SOURCE: https://dfdsstyleguide.azurewebsites.net/brand/colours
 $dfds-color-primary: #002B45;
@@ -178,6 +181,20 @@ main {
 
   p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #filter {
+    max-width: 90vw;
+  }
+
+  header nav {
+    width: 90vw;
+  }
+
+  main {
+    max-width: none; 
   }
 }
 
