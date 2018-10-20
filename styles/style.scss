@@ -81,21 +81,52 @@ header {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 80vw;
   margin: 0 auto;
-  
-  ul {
-    padding: 0;
+  display: flex;
+
+  #filter-desktop {
+    width: 80%;
+    
+    ul {
+      padding: 0;
+    }
+
+    li {
+      background-color: white;
+      display: inline-block;
+      transition-duration: 400ms;
+      padding: .7em 1em .7em 1em;
+      margin: 0 .6em 0 0;
+
+      &:hover {
+        background-color: $dfds-color-primary;
+        color: white;
+      }
+    }
   }
 
-  li {
-    background-color: white;
-    display: inline-block;
-    padding: .7em 1em .7em 1em;
-    transition-duration: 400ms;
-    margin: 0 .6em 0 0;
+  #sort-desktop {
+    text-align: right;
+    width: 20%;
 
-    &:hover {
-      background-color: $dfds-color-primary;
-      color: white;
+    select {
+      // font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      // font-size: 16px;
+      // background-color: white;
+      // padding: .7em 1em .7em 1em;
+      // -webkit-appearance: none; /* WebKit/Chromium */
+      // -moz-appearance: none; /* Gecko */
+      // border: none;
+      // border-radius: 0px;
+      font-size: 16px;
+      width: 60%;
+      height: 2.552em;
+      border: none;
+      border-radius: 0px;
+    }
+    
+    /* Internet Explorer 10–11 and Edge */
+    select::-ms-expand {
+      display: none;
     }
   }
 }

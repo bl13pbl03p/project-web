@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'DFDSBold';
   src: url("./fonts/DFDSBold/DFDSBold.eot") format("embedded-opentype"), url("./fonts/DFDSBold/DFDSBold.woff") format("woff"), url("./fonts/DFDSBold/DFDSBold.ttf") format("truetype"), url("./fonts/DFDSBold/DFDSBold.svg") format("svg");
@@ -44,18 +45,33 @@ header {
 #filter {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   max-width: 80vw;
-  margin: 0 auto; }
-  #filter ul {
-    padding: 0; }
-  #filter li {
-    background-color: white;
-    display: inline-block;
-    padding: .7em 1em .7em 1em;
-    transition-duration: 400ms;
-    margin: 0 .6em 0 0; }
-    #filter li:hover {
-      background-color: #002B45;
-      color: white; }
+  margin: 0 auto;
+  display: flex; }
+  #filter #filter-desktop {
+    width: 80%; }
+    #filter #filter-desktop ul {
+      padding: 0; }
+    #filter #filter-desktop li {
+      background-color: white;
+      display: inline-block;
+      transition-duration: 400ms;
+      padding: .7em 1em .7em 1em;
+      margin: 0 .6em 0 0; }
+      #filter #filter-desktop li:hover {
+        background-color: #002B45;
+        color: white; }
+  #filter #sort-desktop {
+    text-align: right;
+    width: 20%;
+    /* Internet Explorer 10–11 and Edge */ }
+    #filter #sort-desktop select {
+      font-size: 16px;
+      width: 60%;
+      height: 2.552em;
+      border: none;
+      border-radius: 0px; }
+    #filter #sort-desktop select::-ms-expand {
+      display: none; }
 
 #filter-mobile {
   display: none;
