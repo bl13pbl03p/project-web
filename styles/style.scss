@@ -271,6 +271,48 @@ main {
   }
 }
 
+#form {
+  margin: 0 auto;
+  width: 80vw;
+
+  form {
+    margin: 3em 0 0 0;
+    background-color: white;
+  }
+
+  legend {
+    font-family: DFDSBold;
+
+    h2 {
+      margin: 1em 0 0 0;
+    }
+  }
+
+  label {
+    margin: 1em 0 0 0;
+    font-size: 16px;
+  }
+
+  fieldset {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    border: none;
+    padding: 1em;
+  }
+
+  input {
+    margin: .4em 0 .4em 0;
+    font-size: 18px;
+    width: 90%;
+    padding: .6em .3em;
+  }
+
+  a {
+    margin: 1em 0 1em 0;
+
+  }
+}
+
 #footer {
   background-color: $dfds-color-primary;
   padding: 2em;
