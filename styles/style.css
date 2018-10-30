@@ -202,6 +202,10 @@ main {
       border: none;
       margin: 2em 0 1em 0;
       padding: .3em .8em; }
+    #form fieldset #tip {
+      margin: 0;
+      font-style: italic;
+      color: #1B5786; }
   #form input {
     margin: .4em 0 .4em 0;
     font-size: 18px;

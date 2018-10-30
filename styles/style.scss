@@ -313,6 +313,12 @@ main {
       margin: 2em 0 1em 0;
       padding: .3em .8em;
     }
+
+    #tip {
+      margin: 0;
+      font-style: italic;
+      color: $dfds-color-secondary;
+    }
   }
 
   input {
