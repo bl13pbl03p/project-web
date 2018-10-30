@@ -3,7 +3,7 @@ const onloadCallback = function() {
   alert("grecaptcha is ready!")
 }
 
-function show() {
+function showMobile() {
   const button = document.querySelector('#filter-mobile')
 
   button.addEventListener('click', () => {
@@ -12,4 +12,4 @@ function show() {
   })
 }
 
-show()
+showMobile()
