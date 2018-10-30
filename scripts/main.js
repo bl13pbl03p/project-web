@@ -1,4 +1,15 @@
 // Source: https://developers.google.com/recaptcha/docs/display
-var onloadCallback = function() {
-  alert("grecaptcha is ready!");
-};
+const onloadCallback = function() {
+  alert("grecaptcha is ready!")
+}
+
+function show() {
+  const button = document.querySelector('#filter-mobile')
+
+  button.addEventListener('click', () => {
+    console.log('Filter is open')
+    this.classList.toggle('open')
+  })
+}
+
+show()
