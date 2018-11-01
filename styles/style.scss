@@ -235,47 +235,9 @@ main {
   }
 }
 
-
-
-@media only screen and (max-width: 400px) {
-  header nav {
-    width: 95vw;
-
-    ul {
-      width: 100%;
-    }
-  }
-
-  #filter-mobile  {
-    max-width: 95vw;
-  }
-
-  main {
-    max-width: none; 
-  }
-
-  #footer ul{
-    max-width: 95em;
-  }
-}
-
-@media only screen and (max-width: 1066px) {
-  #filter {
-    display: none;
-  }
-
-  #filter-mobile {
-    display: block;
-  }
-
-  main {
-    margin-top: 1em;
-  }
-}
-
 #form {
   margin: 0 auto;
-  width: 80vw;
+  max-width: 80vw;
   display: block;
 
   form {
@@ -327,7 +289,9 @@ main {
     margin: .4em 0 .4em 0;
     font-size: 18px;
     width: 100%;
-    padding: .4em;
+    padding: .6em;
+    border: none;
+    border-radius: 4px;
   }
 
   a {
@@ -364,5 +328,49 @@ main {
         color: $dfds-color-gray-4;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header nav {
+    width: 95vw;
+
+    ul {
+      width: 100%;
+    }
+  }
+
+  #filter-mobile  {
+    max-width: 95vw;
+  }
+
+  main {
+    max-width: none; 
+  }
+
+  #form {
+    max-width: 95vw;
+
+    input {
+      max-width: 88vw;
+    }
+  }
+
+  #footer ul{
+    max-width: 95em;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  #filter {
+    display: none;
+  }
+
+  #filter-mobile {
+    display: block;
+  }
+
+  main {
+    margin-top: 1em;
   }
 }
